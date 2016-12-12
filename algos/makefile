@@ -20,3 +20,7 @@ djikstras:
 milner-rabin:
 	@mkdir -p bin
 	gcc -g -Wall -Werror -std=c++11 -lstdc++ milner-rabin.cpp -o bin/milner-rabin
+
+multiset-powerset:
+	@mkdir -p bin
+	gcc -g -Wall -Werror -std=c++11 -lstdc++ multiset-powerset.cpp -o bin/multiset-powerset
